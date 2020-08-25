@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Messenger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,900" rel="stylesheet">
+    <link rel="icon" href="./assets/img/chat.png">
+</head>
+<body>
+        <nav id = "nav">
+                <span class="bars">
+                    <i class="fas fa-bars custom-bars"></i>
+            
+                </span>
+            </nav>
+
+            <div class="chat-container">
+                    <section id="sidebar">
+                            <ul class="left-ul">
+                                <li><a href=""><span class="profile-img-span"><img src="assets/img/weber.jpg" alt="GF" class="profile-img"></span></a></li>
+                                <li><a href="#">Gupta Weber<span class="cool-hover"></span></a></li>
+                                <li><a href="./change_username.php">CHANGE USERNAME <span class="cool-hover"></span></a></li>
+                                <li><a href="./change_password.php">CHANGE PASSWORD <span class="cool-hover"></span></a></li>
+                                <li><a href="./change_image.php">CHANGE PHOTO <span class="cool-hover"></span></a></li>
+                                <li><a href="#">ONLINE USERS <span class="cool-hover"></span></a></li>
+                                <li><a href="logout.php">Log Out<span class="cool-hover"></span></a></li>                  
+                            </ul>
+                        </section><!-- close of side bar-->
+                        <section id="right-area">
+
+                                <form class="post-form">
+                                        <div class="post-container">
+                                            <div class="post-input">
+                                                <textarea placeholder="Title Goes Here...." class="postarea-control" id="send_message" required></textarea>
+                                               
+                                            </div><!-- close of Form-Input -->
+                                            <div class="post-input">
+                                                <label for="upload-files" id="upload-label"><i class="fas fa-paperclip fa-uploads"></i>
+                                                <i class="fas fa-file-image fa-uploads"></i>
+                                                </label>
+                                                <input type="file" id="upload-files" class="files-upload" id="upload-files" name = "send_file" />
+                                            </div><!-- close of Form-Input -->
+                                        
+                                            <div class="post-input">
+                                                <input type="submit" name = "login" value="POST" class ="btn post-btn">
+                                            </div>
+                                        </div><!--close of post-container -->
+                                        <div class = "files-error"></div>
+                                    </form><!-- close of chat-form -->
+                                    
+                       
+                                    <div class="posts">
+                        <div class="user-post common-margin">
+
+                                <div class="user-date">
+                                    <span class="user-name">
+                                        Weber
+                                    </span><!--close of sender-name-->
+                        
+                                    <span class="user-time">
+                                            1 day ago
+                                            </span><!-- close of date time-->
+                                </div><!-- close of user-date-->
+                        
+                                <div class="post-data">
+                                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco .</p>
+                        
+                                </div>
+                        
+                            </div><!-- End of User post-->
+
+                        </div><!--close of posts-->
+
+                            <div class="user-post common-margin">
+
+                                <div class="user-date">
+                                    <span class="user-name">
+                                        Weber
+                                    </span><!--close of sender-name-->
+                        
+                                    <span class="user-time">
+                                            1 day ago
+                                            </span><!-- close of date time-->
+                                </div><!-- close of user-date-->
+                        
+                                <div class="post-data">
+                                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco .</p>
+                        
+                                </div>
+                        
+                            </div><!-- End of User post-->
+
+                            <div class="user-post common-margin">
+
+                                <div class="user-date">
+                                    <span class="user-name">
+                                        Weber
+                                    </span><!--close of sender-name-->
+                        
+                                    <span class="user-time">
+                                            1 day ago
+                                            </span><!-- close of date time-->
+                                </div><!-- close of user-date-->
+                        
+                                <div class="post-data">
+                                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco .</p>
+                        
+                                </div>
+                        
+                            </div><!-- End of User post-->
+
+
+                           
+                        </section><!-- Close of right-area -->
+                    </div>
+
+
+    
+</body>
+</html>
